@@ -10,9 +10,9 @@ There are two ways to configure the Keycloak realm for this application:
 >This section is only for those who wish to manually configure the Keycloak server.
 
 #### 1. Create a realm
-Follow the [create a realm](https://www.keycloak.org/docs/latest/getting_started/index.html#_create-realm) instructions and create a realm called: `asr`
+Follow the [create a realm](https://www.keycloak.org/docs/latest/getting_started/index.html#_create-realm) instructions and create a realm called: `anar`
 #### 2. Create a client
-Follow steps 1- 3 of the [creating and registering](https://www.keycloak.org/docs/latest/getting_started/index.html#creating-and-registering-the-client) guide and create a new client called: `asr-app`
+Follow steps 1- 3 of the [creating and registering](https://www.keycloak.org/docs/latest/getting_started/index.html#creating-and-registering-the-client) guide and create a new client called: `anar-app`
 
 In the **Valid Redirect URIs** field enter the two URLs: `http://localhost:8081/*` and `http://localhost:4200/*`
 > Note the asterisk (*) after the urls!
